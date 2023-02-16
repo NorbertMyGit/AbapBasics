@@ -1,0 +1,9 @@
+*&---------------------------------------------------------------------*
+*&  Include           ZPR_FORM_ROUTINES_01_F01
+*&---------------------------------------------------------------------*
+
+FORM calculate_value USING iv_number_01 TYPE i
+                           iv_number_02 TYPE i
+                     CHANGING cv_sum TYPE i.
+  cv_sum = iv_number_01 + iv_number_02.
+ENDFORM.
